@@ -1,0 +1,18 @@
+// Node does not run ts file
+
+// 1 - using ts compiler to convert ts file to js file
+tsc index.ts
+node index.js
+
+// 2 - using package (ts-node)
+npm init -y
+npm i -D ts-node
+
+
+// declaration file for node and express
+npm install -D typescript @types/node @types/express
+
+// tsc -init ==> ts config
+
+
+
